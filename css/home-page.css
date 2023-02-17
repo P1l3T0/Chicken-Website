@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff8c00;
+}
+
+.image {
+    width: 500px;
+    height: 500px;
+}
+
+.chicken-image {
+    border: solid 5px #000000;
+    border-radius: 5px;
+}
+
+
+.section-style {
+    background-image: url("../pictures/chicken-background.jpg");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.section-style h2 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section-style p {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #ff8c00;
+    color: #fff;
+    font-size: 24px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #333;
+}
+
+.cards {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+    flex-direction: row;
+}

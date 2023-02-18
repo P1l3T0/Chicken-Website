@@ -1,6 +1,6 @@
-document.querySelector('.hero .button').addEventListener('click', function(event) {
+document.querySelector('.section-style .button').addEventListener('click', (event) => {
     event.preventDefault();
-    alert('Welcome to Chickens R Us! This website is still under construction, but check back soon for more updates!');
+    alert('Welcome to Pileshkiq! This website is still under construction, but check back soon for more updates!');
 });
 
 // Display a random chicken fact on the homepage
@@ -20,20 +20,26 @@ if (factDisplay) {
 }
 
   // Add a form submission handler for a "Contact Us" form
-const contactForm = document.querySelector('#contact-form');
+// const contactForm = document.querySelector('#contact-form');
 
-if (contactForm) {
-    contactForm.addEventListener('submit', function(event) {
-    event.preventDefault();
-    const nameInput = document.querySelector('#name');
-    const emailInput = document.querySelector('#email');
-    const messageInput = document.querySelector('#message');
+// if (contactForm) {
+//     contactForm.addEventListener('submit', function(event) {
+//     event.preventDefault();
+//     const nameInput = document.querySelector('#name');
+//     const emailInput = document.querySelector('#email');
+//     const messageInput = document.querySelector('#message');
 
-      // TODO: Send form data to a server using an AJAX request
-        alert('Thank you for your message! We will get back to you as soon as possible.');
-        nameInput.value = '';
-        emailInput.value = '';
-        messageInput.value = '';
-    });
-}
+//       // TODO: Send form data to a server using an AJAX request
+//         alert('Thank you for your message! We will get back to you as soon as possible.');
+//         nameInput.value = '';
+//         emailInput.value = '';
+//         messageInput.value = '';
+//     });
+// }
+
+document.getElementById("showMore").addEventListener('mouseover', (event) => {
+
+}); 
+
+    
 

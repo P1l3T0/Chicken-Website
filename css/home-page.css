@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* outline: solid 1px #00ff15; */
 }
 
 header {
@@ -37,6 +38,17 @@ nav a {
 
 nav a:hover {
     color: #ff8c00;
+}
+
+h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.links {
+    text-decoration: none;
 }
 
 .image {
@@ -95,9 +107,64 @@ nav a:hover {
 
 .cards {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     align-items: center;
+    justify-content: center;
     height: 100%;
-    width: 100vw;
+    width: 100%;
     flex-direction: row;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+    padding: 1rem;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+
+.container:hover {
+    animation: expand 0.25s;
+    transform: scale(1.05);
+}
+
+@keyframes expand {
+    0% {
+        transform: scale(1); 
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: 175px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    font-size: 1rem;
+    left: 50%;
+    top: 50%;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}
+
+
+

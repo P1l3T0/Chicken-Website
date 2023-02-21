@@ -40,13 +40,17 @@ nav a:hover {
     color: #ff8c00;
 }
 
+body {
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(90, 90, 90) 0%, rgb(0, 0, 0) 99.4%);
+}
+
 .links {
     text-decoration: none;
 }
 
-/*
-    !tova e za snimkite nqkoi neshta
- */
+
+/* !tova e za snimkite nqkoi neshta */
+
 
 img {
     border-radius: 25px;
@@ -61,6 +65,7 @@ img {
 .gray-image:hover {
     transform: scale(1.05);
     filter: grayscale(0);
+    transition: 500ms ease;
 }
 
 .gallery {

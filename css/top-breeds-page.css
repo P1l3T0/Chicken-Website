@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth !important;
+    /* outline: solid 1px #00ff15; */
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+    list-style: none;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+body {
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff8c00;
+}
+
+div h1 {
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+div p {
+    font-size: 30px;
+}
+
+div {
+    padding-bottom: 5px;
+    border: 20px;
+}
+
+.box {
+    text-align: center;
+}
+
+.link {
+    color: white;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ /* !animaciq na snimkite i teksta  */
+
+.hidden {
+    opacity: 0;
+    filter: blur(20px);
+    transform: translate(-100%);
+    transition: all 1s ease;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translate(0);
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
+.image-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+}
+
+.image-container img {
+    border: solid 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.text-overlay {
+    background-color: rgba(0, 0, 0, 0.568);
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-overlay h1 {
+    font-size: 100px;
+}
+
+.text-overlay p {
+    font-size: 30px;
+    text-align: center;
+}
+
+/* !zeleniq byton doly v dqsno */
+
+.gotop {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #ffffff;
+    bottom: 40px;
+    right: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+}

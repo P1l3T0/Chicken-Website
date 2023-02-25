@@ -1,11 +1,3 @@
-document.querySelector(".section-style .button").addEventListener("click", (event) => {
-    event.preventDefault();
-    alert(
-        "Welcome to Pileshkiq! This website is still under construction"
-        + "but check back soon for more updates!"
-    );
-});
-
 //!random fakt za piletata
 
 const chickenFacts = [

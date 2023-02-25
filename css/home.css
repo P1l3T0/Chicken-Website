@@ -92,7 +92,7 @@ a {
 }
 
 .section-style  h1 {
-    position: relative;
+    top: 4%;
     height: 50px;
     display: flex;
     flex-direction: column;
@@ -166,7 +166,6 @@ a {
     transform: scale(1.05);
     transition: 1s;
     cursor: pointer;
-
 }
 
 .featured-content {

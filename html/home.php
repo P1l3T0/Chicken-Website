@@ -6,13 +6,14 @@
     <title>Pileshkiq</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/home.css">
     <script defer src="../js/home.js"></script>
 </head>
 
 <body>
     <?php 
-        include '../php/header.php';
+        include_once '../php/header.php';
     ?>
 
     <section class="section-style chicken-image">
@@ -31,21 +32,21 @@
         <div class="cards">
             <div class="container tooltip">
                 <span class="tooltip-text">Discover the best breeds of chicken!</span>
-                <a href="../html/top-breeds.php" target="_blank" class="image-button">
+                <a href="../html/top-breeds.php" class="image-button">
                     <img class="image" src="../pictures/AIpile1.webp" alt="hen with tie"></a>
                 <h3>Top Breeds</h3>
             </div>
 
             <div class="container tooltip">
                 <span class="tooltip-text">Stay up-to-date on chicken!</span>
-                <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank" class="image-button">
+                <a href="https://youtu.be/dQw4w9WgXcQ" class="image-button">
                     <img class="image" src="../pictures/AIpile2.webp" alt="Latest Chicken News"></a>
                 <h3>Latest News</h3>
             </div>
 
             <div class="container tooltip">
                 <span class="tooltip-text">View amazing pictures of chicken!</span>
-                <a href="../html/gallery.php" target="_blank" class="image-button">
+                <a href="../html/gallery.php" class="image-button">
                     <img class="image" src="../pictures/AIpile3.webp" alt="Chicken Gallery"></a>
                 <h3>Chicken Gallery</h3>
             </div>

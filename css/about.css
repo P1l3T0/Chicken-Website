@@ -1,15 +1,5 @@
-@import url("https://fonts.google.com/share?selection.family=Poppins:wght@100");
-
 html {
     box-sizing: border-box;
-}
-
-* {
-    font-family: "Popins", sans-serif;
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    /* outline: solid 1px #00ff15; */
 }
 
 body {
@@ -23,41 +13,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
-
-header {
-    background-color: #fff;
-    border-bottom: 1px solid #ccc;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header h1 {
-    font-size: 30px;
-    font-weight: bold;
-    color: #333;
-}
-
-nav ul {
-    display: flex;
-}
-
-nav li {
-    margin-right: 20px;
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: #333;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #ff8c00;
 }
 
 div h1 {
@@ -86,9 +41,6 @@ img {
 
 main {
     flex: 1;
-}
-footer {
-    margin-top: auto;
 }
 
 .our-team {

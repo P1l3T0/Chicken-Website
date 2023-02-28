@@ -9,7 +9,14 @@
 </head>
 
 <body>
-    <h1>LAINA lorem</h1>
+    <?php 
+        @include_once '../php/header.php';
+    
+        echo "<h1>". $_SESSION["username"] ."</h1>";
+        echo "<h1>". $_SESSION["email"] ."</h1>";
+        echo "<h1>". $_SESSION["userID"] ."</h1>";
+    ?>
+    <h1>LAINA</h1>
     <a href="includes/logout.inc.php">LOGOUT</a>
 </body>
 

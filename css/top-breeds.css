@@ -1,58 +1,6 @@
-@import url("https://fonts.google.com/share?selection.family=Poppins:wght@100");
-
-* {
-    font-family: "Popins", sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth !important;
-    /* outline: solid 1px #00ff15; */
-}
-
-header {
-    background-color: #fff;
-    border-bottom: 1px solid #ccc;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header h1 {
-    font-size: 30px;
-    font-weight: bold;
-    color: #333;
-}
-
-nav ul {
-    display: flex;
-}
-
-nav li {
-    margin-right: 20px;
-    list-style: none;
-}
-
-h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 60px;
-    text-align: center;
-}
-
 body {
     background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
     color: white;
-}
-
-a {
-    text-decoration: none;
-    color: #333;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-a:hover {
-    color: #ff8c00;
 }
 
 div h1 {
@@ -69,15 +17,26 @@ div {
     border: 20px;
 }
 
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
 .box {
     text-align: center;
 }
 
 .link {
     color: white;
+    font-weight: bold;
+    font-size: 20px;
     margin-left: 25px;
     margin-top: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.link:hover {
+    color: #ff8c00;
 }
 
  /* !animaciq na snimkite i teksta  */
@@ -151,4 +110,8 @@ div {
     border-radius: 50%;
     text-align: center;
     font-size: 40px;
+}
+
+.gotop:hover {
+    color: #ff8c00;
 }

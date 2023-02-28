@@ -116,11 +116,11 @@ function loginUser($conn, $username, $pwd) {
         session_start();
         $_SESSION["userID"] = $usernameExists["userID"];
         $_SESSION["username"] = $usernameExists["username"];
+        $_SESSION["email"] = $usernameExists["email"];
+
         header("Location: /html/home.php?error=successfulLogin");
         exit();
     }
 }
-
-
 
 ?>

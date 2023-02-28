@@ -2,11 +2,13 @@
     session_start();
 ?>
 
+<link rel="stylesheet" href="../css/header.css">
+
 <header>
     <a class="links" href="../html/home.php"><h1>Pileshkiq™</h1></a>
         <nav>
             <ul>
-                <li><a href="#">Community</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Community</a></li>
                 <li><a href="../html/about.php">About</a></li>
                 <li><a href="../html/contacts.php">Contacts</a></li>
                 <?php 

@@ -13,7 +13,7 @@
 
 <body>
     <?php 
-        include '../php/header.php';
+        include_once '../php/header.php';
     ?>
 
     <div class="gallery">

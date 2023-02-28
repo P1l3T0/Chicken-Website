@@ -26,6 +26,9 @@
         </form>
     </div>
 
+    <footer>
+        <p>&copy;2023 Pileshkiq</p>
+    </footer>
 </body>
 
 </html>

@@ -23,6 +23,9 @@
             <p>Don't have an account? <a href="signup.php">Register now!</a></p>
         </form>
     </div>
+    <footer>
+        <p>&copy;2023 Pileshkiq</p>
+    </footer>
 </body>
 
 </html>

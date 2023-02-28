@@ -7,6 +7,15 @@
     text-decoration: none;
 }
 
+body {
+    background-image: url("../pictures/baby-chicks.webp");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .container {
     min-height: 100vh;
     display: flex;
@@ -65,12 +74,7 @@
     justify-content: center;
     padding: 20px;
     padding-bottom: 60px;
-    background-image: url("../pictures/baby-chicks.webp");
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: darken;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+
 }
 
 .form-container form {

@@ -1,8 +1,11 @@
+@import url("https://fonts.google.com/share?selection.family=Poppins:wght@100");
+
 html {
     box-sizing: border-box;
 }
 
 * {
+    font-family: "Popins", sans-serif;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -89,7 +92,8 @@ footer {
 }
 
 .our-team {
-    margin: 25px;
+    margin-top: 25px;
+    margin-bottom: 10px;
     font-size: 50px;
     text-align: center;
 }

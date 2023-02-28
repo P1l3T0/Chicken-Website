@@ -13,19 +13,9 @@
 </head>
 
 <body>
-    <header>
-        <a class="links" href="../html/home.html">
-            <h1>Pileshkiq™</h1>
-        </a>
-        <nav>
-            <ul>
-                <li><a href="#">Community</a></li>
-                <li><a href="../html/about.html">About</a></li>
-                <li><a href="../html/contacts.html">Contacts</a></li>
-                <li><a href="../html/register.html">Profile</a></li>
-            </ul>
-        </nav>
-    </header>
+    <?php 
+        include '../php/header.php';
+    ?>
 
     <h2>Top Chicken Breeds</h2>
     <div class="box link">

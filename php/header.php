@@ -1,0 +1,22 @@
+<?php 
+    session_start();
+?>
+
+<header>
+    <a class="links" href="../html/home.php"><h1>Pileshkiq™</h1></a>
+        <nav>
+            <ul>
+                <li><a href="#">Community</a></li>
+                <li><a href="../html/about.php">About</a></li>
+                <li><a href="../html/contacts.php">Contacts</a></li>
+                <?php 
+                    if (isset($_SESSION["userID"])) {
+                        echo "<li><a href='../php/profile.php'>" .$_SESSION["username"]. "</a></li>";
+                    }
+                    else {
+                        echo "<li><a href='../php/login.php'>Log in</a></li>";
+                    }
+                ?>
+            </ul>
+        </nav>
+</header>

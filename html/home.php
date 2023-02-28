@@ -11,23 +11,18 @@
 </head>
 
 <body>
-    <header>
-        <a class="links" href="../html/home.html">
-            <h1>Pileshkiq™</h1>
-        </a>
-        <nav>
-            <ul>
-                <li><a href="#">Community</a></li>
-                <li><a href="../html/about.html">About</a></li>
-                <li><a href="../html/contacts.html">Contacts</a></li>
-                <li><a href="../html/register.html">Profile</a></li>
-            </ul>
-        </nav>
-    </header>
+    <?php 
+        include '../php/header.php';
+    ?>
 
     <section class="section-style chicken-image">
         <h1 class="fact-display">asdasd</h1>
-        <h2>Welcome to Pileshkiq!</h2>
+        <?php 
+                if (isset($_SESSION["userID"])) 
+                    echo "<h2>Welcome " . $_SESSION["username"] . " to Pileshkiq!</h2> ";
+                else 
+                    echo "<h2>Welcome to Pileshkiq!</h2>";
+                ?>
         <p>Learn everything you need to know about chicken.</p>
     </section>
 
@@ -36,7 +31,7 @@
         <div class="cards">
             <div class="container tooltip">
                 <span class="tooltip-text">Discover the best breeds of chicken!</span>
-                <a href="../html/top-breeds.html" target="_blank" class="image-button">
+                <a href="../html/top-breeds.php" target="_blank" class="image-button">
                     <img class="image" src="../pictures/AIpile1.webp" alt="hen with tie"></a>
                 <h3>Top Breeds</h3>
             </div>
@@ -50,7 +45,7 @@
 
             <div class="container tooltip">
                 <span class="tooltip-text">View amazing pictures of chicken!</span>
-                <a href="../html/gallery.html" target="_blank" class="image-button">
+                <a href="../html/gallery.php" target="_blank" class="image-button">
                     <img class="image" src="../pictures/AIpile3.webp" alt="Chicken Gallery"></a>
                 <h3>Chicken Gallery</h3>
             </div>

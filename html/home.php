@@ -38,10 +38,10 @@
             </div>
 
             <div class="container tooltip">
-                <span class="tooltip-text">Stay up-to-date on chicken!</span>
+                <span class="tooltip-text">Join the awesome chicken community!</span>
                 <a href="https://youtu.be/dQw4w9WgXcQ" class="image-button">
-                    <img class="image" src="../pictures/AIpile2.webp" alt="Latest Chicken News"></a>
-                <h3>Latest News</h3>
+                    <img class="image" src="../pictures/AIpile2.webp" alt="Latest Community News"></a>
+                <h3>Community</h3>
             </div>
 
             <div class="container tooltip">

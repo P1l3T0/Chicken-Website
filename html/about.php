@@ -18,7 +18,7 @@
     <main>
         <div>
             <h1>About us</h1>
-            <p>
+            <p class="about-us">
                 Welcome to our chicken-themed website! We're passionate about all
                 things chicken and excited to share our knowledge with you. Whether
                 you're a backyard chicken enthusiast or simply curious about these
@@ -32,9 +32,9 @@
                 animals that can be enjoyed in a variety of ways. From backyard flocks
                 to commercial farms, chickens play an important role in our world.
             </p>
+            <h1>Our Team</h1>
         </div>
 
-        <h1 class="our-team">Our Team</h1>
         <div class="cards">
             <div class="container">
                 <img src="../pictures/1jolynePNG.webp" />

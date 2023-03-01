@@ -30,8 +30,8 @@
             <h3>Contact us</h3>
             <?php 
                 if (isset($_SESSION["userID"])) {
-                    echo "<input type='text' id='name' value='$_SESSION[username]'>";
-                    echo "<input type='email' id='email' value='$_SESSION[email]'>";
+                    echo "<input type='text' id='name' value='$_SESSION[username]' required>";
+                    echo "<input type='email' id='email' value='$_SESSION[email]' required>";
                     echo "<textarea id='message' rows='4' required></textarea>";
                     echo "<button type='submit' onclick='sendEmail();'>Send</button>";
                 } 

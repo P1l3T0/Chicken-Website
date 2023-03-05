@@ -30,8 +30,8 @@ footer {
     height: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: stretch;
     text-align: center;
     color: #ffffff;
     padding: 20px;
@@ -48,22 +48,9 @@ footer {
     margin-bottom: 30px;
 }
 
-.section-style  h1 {
-    top: 4%;
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    color: rgba(255, 255, 255, 0.5);
-}
-
 .fact-display {
-    position: absolute;
-    bottom: 75%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    width: 100%;
-    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 125px;
 }
 
 .button {

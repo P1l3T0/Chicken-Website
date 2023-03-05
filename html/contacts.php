@@ -21,9 +21,7 @@
 <body>
     <?php 
         include_once '../php/header.php';
-
-
-        ?>
+    ?>
 
     <div class="container">
         <form onsubmit=" reset(); return false;">

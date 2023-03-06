@@ -1,6 +1,5 @@
 lazyLaoding();
 
-
 //!murzelivo zarejdane na snimkite
 
 function lazyLaoding() {

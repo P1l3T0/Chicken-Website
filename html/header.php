@@ -9,7 +9,7 @@
         <nav>
             <ul>
                 <li><a href="../html/about.php">About</a></li>
-                <li><a href="../html/contacts.php">Contacts</a></li>
+                <li><a href="../html/contacts.php">Contact Us</a></li>
                 <?php 
                     if (isset($_SESSION["userID"]))
                         echo "<li><a href='../php/profile.php'>" .$_SESSION["username"]. "</a></li>";

@@ -13,17 +13,17 @@
 
 <body>
     <?php 
-        include_once '../php/header.php';
+        include_once 'header.php';
     ?>
 
     <section class="section-style chicken-image">
-        <h1 class="fact-display">asdasd</h1>
+        <h1 class="fact-display"></h1>
         <?php 
-                if (isset($_SESSION["userID"])) 
-                    echo "<h2>Welcome " . $_SESSION["username"] . " to Pileshkiq!</h2> ";
-                else 
-                    echo "<h2>Welcome to Pileshkiq!</h2>";
-                ?>
+            if (isset($_SESSION["userID"])) 
+                echo "<h2>Welcome " .$_SESSION["username"]. " to Pileshkiq!</h2> ";
+            else 
+                echo "<h2>Welcome to Pileshkiq!</h2>";
+        ?>
         <p>Learn everything you need to know about chicken.</p>
     </section>
 
@@ -48,7 +48,7 @@
                 <span class="tooltip-text">View amazing pictures of chicken!</span>
                 <a href="../html/gallery.php" class="image-button">
                     <img class="image" src="../pictures/AIpile3.webp" alt="Chicken Gallery"></a>
-                <h3>Chicken Gallery</h3>
+                <h3>Gallery</h3>
             </div>
         </div>
     </section>

@@ -42,6 +42,11 @@ nav a {
 
 nav a:hover {
     color: #ff8c00;
+    transition: 500ms ease;
+}
+
+nav a:not(:hover) {
+    transition: 500ms ease;
 }
 
 a {

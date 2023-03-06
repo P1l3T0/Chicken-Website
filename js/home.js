@@ -13,7 +13,12 @@ const chickenFacts = [
     "Chickens are social animals and can form strong bonds with each other!",
     "Chickens have excellent eyesight and can see in color!",
     "Chickens can run up to 9 miles per hour!",
-    "Chickens are capable of problem-solving and can even understand cause and effect relationships!"
+    "Chickens are capable of problem-solving and can even understand cause and effect relationships!",
+    "Potatoes are cool too!",
+    "I like chicken!",
+    "Kykata beshe tyk",
+    "Pishete mi 6 molq vi",
+    "aleks si misli za men hehe"
 ];
 
 const factDisplay = document.querySelector(".fact-display");

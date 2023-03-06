@@ -1,5 +1,5 @@
 h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     font-size: 75px;
     margin-top: 350px;
     color: white;
@@ -20,16 +20,6 @@ body {
 a {
     text-decoration: none;
 }
-
-/* div {
-    text-align: center;
-    justify-content: center;
-} */
-
-/* .child {
-    background-color: rgba(0, 0, 0, 0.521);
-    font-size: 40px;
-} */
 
 .container {
     width: 100%;
@@ -91,5 +81,10 @@ form button {
 
 form button:hover {
     background: orange;
-    color: white
+    color: white;
+    transition: 500ms ease;
+}
+
+form button:not(:hover) {
+    transition: 500ms ease;
 }

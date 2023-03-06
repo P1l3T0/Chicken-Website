@@ -16,6 +16,7 @@ div h1 {
     margin-bottom: 10px;
     font-size: 50px;
     text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
 div h2 {
@@ -80,6 +81,10 @@ main {
 
 .container:hover {
     transform: scale(1.03);
+    transition: 500ms ease;
+}
+
+.container:not(:hover) {
     transition: 500ms ease;
 }
 

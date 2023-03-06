@@ -1,5 +1,4 @@
 * {
-    font-family: "Popins", sans-serif;
     margin: 0;
     padding: 0;
     outline: none;
@@ -61,10 +60,6 @@ body {
     text-transform: capitalize;
 }
 
-.btn:hover {
-    background:  crimson;
-}
-
 /* !register page */
 
 .form-container {
@@ -104,7 +99,7 @@ body {
 }
 
 .form-container form select option {
-background: #fff;
+    background: #fff;
 }
 
 .form-container form .button {
@@ -118,6 +113,11 @@ background: #fff;
 .form-container form .button:hover {
     background: orange;
     color: #fff ;
+    transition: 500ms ease;
+}
+
+.form-container form .button:not(:hover) {
+    transition: 500ms ease;
 }
 
 .form-container form p {

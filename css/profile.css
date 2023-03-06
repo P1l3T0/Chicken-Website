@@ -36,6 +36,7 @@ a {
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     text-align: center;
+    opacity: 85%;
 }
 
 .form h1 {
@@ -50,7 +51,7 @@ a {
     margin-bottom: 10px;
 }
 
-.logout-btn {
+.logout-button {
     display: inline-block;
     width: 200px;
     padding: 10px;
@@ -63,7 +64,12 @@ a {
     cursor: pointer;
 }
 
-.logout-btn:hover {
+.logout-button:hover {
     background-color: orange;
     color: white;
+    transition: 500ms ease;
+}
+
+.logout-button:not(:hover) {
+    transition: 500ms ease;
 }

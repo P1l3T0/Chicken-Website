@@ -69,11 +69,12 @@ body {
     justify-content: center;
     padding: 20px;
     padding-bottom: 60px;
-
+    opacity: 85%;
 }
 
 .form-container form {
     padding: 20px;
+    border: 5px solid #ccc;
     border-radius: 20px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     background: #ffffff;

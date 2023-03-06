@@ -71,6 +71,11 @@ img:hover {
 
 .gotop:hover {
     color: #ff8c00;
+    transition: 500ms ease;
+}
+
+.gotop:not(:hover) {
+    transition: 500ms ease;
 }
 
 /*

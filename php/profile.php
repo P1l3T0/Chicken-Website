@@ -26,7 +26,7 @@
             <div class="form-group">
                 <h2>UserID: <?php echo "".$_SESSION["userID"]."" ?></h2>
             </div>
-            <a href="includes/logout.inc.php" class="logout-btn">Logout</a>
+            <a href="includes/logout.inc.php" class="logout-button">Logout</a>
         </form>
     </div>
 

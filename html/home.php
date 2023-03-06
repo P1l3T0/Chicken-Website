@@ -24,7 +24,7 @@
             else 
                 echo "<h2>Welcome to Pileshkiq!</h2>";
         ?>
-        <p>Learn everything you need to know about chicken.</p>
+        <p>Learn everything you need to know about chicken</p>
     </section>
 
     <section class="featured">

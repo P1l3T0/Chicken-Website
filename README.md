@@ -8,10 +8,10 @@ Database name - user_db, table name - pileshkiq_users, column names - userID, us
 
 
 ## Features
-Home page: Displays information about the website and has a navigation menu. <br>
-About page: Provides information about the website owner and their passion for chickens. <br>
-Gallery page: Displays a gallery of chicken photos and allows users to upload their own photos. <br>
-Contact page: Provides a contact form for users to send messages to the website owner. <br>
+Home page - Displays information about the website and has a navigation menu. <br>
+About page - Provides information about the website owner and their passion for chickens. <br>
+Gallery page - Displays a gallery of chicken photos and allows users to upload their own photos. <br>
+Contact page - Provides a contact form for users to send messages to the website owner. <br>
 
 ## Technologies Used
 HTML - Used to create the website's structure and content. <br>

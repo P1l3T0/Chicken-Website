@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url("../pictures/baby-chicks.webp");
+    background: url("../pictures/baby-chicks.webp");
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: darken;
     background-size: cover;

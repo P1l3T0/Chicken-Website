@@ -1,6 +1,6 @@
 body {
     color: white;
-    background-image: url("../pictures/about-background.webp");
+    background: url("../pictures/about-background.webp");
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: darken;
     background-size: cover;
@@ -77,6 +77,7 @@ img {
     border-radius: 25px;
     background: radial-gradient(circle at 25% 69%, rgba(50, 50, 50, 0.5) 0%, rgba(0, 0, 0, 0.75) 75%);
     color: white;
+    cursor: pointer;
 }
 
 .container:hover {

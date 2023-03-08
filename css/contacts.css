@@ -6,7 +6,7 @@ h2 {
 
 body {
     color: black;
-    background-image: url("../pictures/chicken-wings.webp");
+    background: url("../pictures/chicken-wings.webp");
     background-blend-mode: darken;
     background-size: cover;
     background-position: center;

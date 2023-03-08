@@ -12,17 +12,17 @@
 </head>
 
 <body>
-    <?php 
+    <?php
         include_once 'header.php';
     ?>
 
     <section class="section-style chicken-image">
         <h1 class="fact-display"></h1>
-        <?php 
-            if (isset($_SESSION["userID"])) 
-                echo "<h2>Welcome " .$_SESSION["username"]. " to Pileshkiq!</h2> ";
-            else 
-                echo "<h2>Welcome to Pileshkiq!</h2>";
+        <?php
+        if (isset($_SESSION["userID"]))
+            echo "<h2>Welcome " .$_SESSION["username"]. " to Pileshkiq!</h2> ";
+        else
+            echo "<h2>Welcome to Pileshkiq!</h2>";
         ?>
         <p>Learn everything you need to know about chicken</p>
     </section>
@@ -38,10 +38,10 @@
             </div>
 
             <div class="container tooltip">
-                <span class="tooltip-text">Join the awesome chicken community!</span>
-                <a href="https://youtu.be/dQw4w9WgXcQ" class="image-button">
+                <span class="tooltip-text">Stay up-to-date with the news!</span>
+                <a href="../html/news.php" class="image-button">
                     <img class="image" src="../pictures/AIpile2.webp" alt="Latest Community News"></a>
-                <h3>Community</h3>
+                <h3>Latest news</h3>
             </div>
 
             <div class="container tooltip">
@@ -52,6 +52,40 @@
             </div>
         </div>
     </section>
+
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe> -->
 
     <footer>
         <p>&copy;2023 Pileshkiq</p>

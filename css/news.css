@@ -1,0 +1,62 @@
+body {
+    font-family: "Popins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("../pictures/pileshko-hapvane.webp");
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    flex-basis: calc(33.33% - 20px);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 5px solid #ccc;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.card:not(:hover) {
+    transition: 1s ease;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+
+.card p {
+    font-size: 14px;
+    margin: 0;
+    line-height: 1.5;
+}

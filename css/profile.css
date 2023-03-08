@@ -3,7 +3,7 @@
 
 body {
     font-family: "Popins", sans-serif;
-    background-image: url("../pictures/chicken-profile-bg.webp");
+    background: url("../pictures/chicken-profile-bg.webp");
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: darken;
     background-size: cover;

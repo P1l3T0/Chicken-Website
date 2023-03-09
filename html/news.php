@@ -10,7 +10,7 @@
 
 <body>
     <?php 
-        include_once "header.php";
+        include_once "1header.php";
     ?>
 
     <div class="container">
@@ -45,6 +45,10 @@
             <p>QDEM SAMO ISTINSKO PILESHKO ILI SMURT</p>
         </div>
     </div>
+
+    <?php 
+        include_once "2footer.html";
+    ?>
 </body>
 
 </html>

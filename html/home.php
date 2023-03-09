@@ -13,7 +13,7 @@
 
 <body>
     <?php
-        include_once 'header.php';
+        include_once '1header.php';
     ?>
 
     <section class="section-style chicken-image">
@@ -87,9 +87,10 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe> -->
 
-    <footer>
-        <p>&copy;2023 Pileshkiq</p>
-    </footer>
+    <?php 
+        include_once "2footer.html";
+    ?>
 </body>
+
 
 </html>

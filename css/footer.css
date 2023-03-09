@@ -1,0 +1,78 @@
+@import url("https://fonts.google.com/share?selection.family=Poppins:wght@100");
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+footer {
+    margin-top: 55px;
+    background-color: #333;
+    color: #fff;
+    height: 220px; 
+    width: auto;
+    padding-top: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #414141;
+    text-shadow: 2px 2px 4px rgb(24, 24, 24);
+    color: #646464;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-family: "Popins", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 2rem;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+.footer-content p {
+    font-family: 'Golos Text', sans-serif;
+    font-style: italic;
+    max-width: 1000px;
+    margin: 10px auto;
+    line-height: 30px;
+    font-size: 20px;
+
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 15px 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i {
+    font-size: 25px;
+    transition: 500ms ease;
+}
+
+.socials a:hover i {
+    color: orange;
+}
+

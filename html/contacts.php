@@ -20,7 +20,7 @@
 
 <body>
     <?php 
-        include_once 'header.php';
+        include_once '1header.php';
     ?>
 
     <div class="container">
@@ -43,12 +43,9 @@
         </form>
     </div>
 
-
-
-    <footer>
-        <p>&copy;2023 Pileshkiq</p>
-    </footer>
-
+    <?php 
+        include_once "2footer.html";
+    ?>
 </body>
 
 </html>

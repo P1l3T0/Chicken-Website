@@ -11,7 +11,7 @@
 
 <body>
     <?php 
-        include_once '../html/header.php';
+        include_once '../html/1header.php';
     ?>
     
     <div class="form-container">
@@ -23,9 +23,10 @@
             <p>Don't have an account? <a href="signup.php">Register now!</a></p>
         </form>
     </div>
-    <footer>
-        <p>&copy;2023 Pileshkiq</p>
-    </footer>
+
+    <?php 
+        include_once "../html/2footer.html";
+    ?>
 </body>
 
 </html>

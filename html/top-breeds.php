@@ -14,7 +14,7 @@
 
 <body>
     <?php 
-        include_once 'header.php';
+        include_once '1header.php';
     ?>
 
     <h2>Top Chicken Breeds</h2>
@@ -241,9 +241,9 @@
         <a class="gotop" href="#"><i class="fa-solid fa-square-up"></i>⇧</a>
     </div>
 
-    <footer>
-        <p>&copy;2023 Pileshkiq</p>
-    </footer>
+    <?php 
+        include_once "2footer.html";
+    ?>
 </body>
 
 </html>

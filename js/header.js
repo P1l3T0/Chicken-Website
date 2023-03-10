@@ -1,6 +1,7 @@
 chickenLoader();
 activeLink();
 
+
 function chickenLoader() {
     var loader = document.getElementById("preloader");
     window.addEventListener("load", function () {
@@ -13,8 +14,9 @@ function activeLink() {
     const navLinks = document.querySelectorAll('nav a')
         .forEach(link => {
             if (link.href.includes(`${activePage}`)) {
-                link.classList.add('active')
+                link.classList.add('active');
             }
-        })
-}
+        });
+    }
+
 

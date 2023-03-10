@@ -6,7 +6,7 @@
 <script defer src="../js/header.js"></script>
 <div class="prelaoder" id="preloader"></div>
 
-<header>
+<header class="sticky">
     <a class="links" href="../html/home.php"><h1>Pileshkiq™</h1></a>
         <nav>
             <ul>

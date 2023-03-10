@@ -1,48 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+@import url("https://fonts.google.com/share?selection.family=Poppins:wght@100");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
 body {
-    color: white;
-    background: url("../pictures/about-background.webp");
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: darken;
-    background-size: cover;
+    background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    background-color: #191919;
+    background-image: url("layer1.svg");
 }
 
-div h1 {
-    margin-top: 25px;
-    margin-bottom: 10px;
-    font-size: 50px;
-    text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
-}
-
-div h2 {
-    font-size: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    padding-top: 5px;
-}
-
-div p {
-    font-size: 25px;
-    text-align: center;
-    margin: 5px;
-}
-
-img {
+.about {
     width: 100%;
-    border-radius: 25px;
+    padding: 4rem 0rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about img {
+    height: auto;
+    width: 28rem;
+    border-radius: 15px;
+    border: white solid;
 }
 
 .main {
-    flex: 1;
+    width: 93.75rem;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.small {
-    font-size: 20px;
+.about-text {
+    margin-left: 3.125rem;
+}
+
+.about-text h1 {
+    font-family: "Popins", sans-serif;
+    color: white;
+    text-transform: capitalize;
+    font-size: 5rem;
+    margin-top: 2.5rem;
+}
+
+.about-text h5 {
+    color: white;
+    font-size: 3.125rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+}
+
+.about-text p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+    font-size: 2.188rem;
+    margin-bottom: 3rem;
+    border: solid;
+    border-radius: 15px;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+span {
+    color: orange;
 }
 
 .cards {
@@ -50,34 +85,31 @@ img {
     gap: 2rem;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    height: 25%;
     width: 100%;
     flex-direction: row;
 }
 
-.about-section {
-    padding: 50px;
-    text-align: center;
-    background: radial-gradient(circle at 69% 25%, rgb(90, 90, 90) 0%, rgb(0, 0, 0) 99.4%);
-    color: white;
-}
-
-.title {
-    color: rgba(255, 255, 255, 0.5);
-}
-
 .container {
+    position: relative;
+    padding: 1.56rem;
+    border-radius: 5px;
+    animation: fly-in 2s ease;
     margin: 1rem;
-    display: flex;
-    align-items: center;
+    align-items: center; 
     flex-direction: column;
-    text-align: start;
     box-sizing: border-box;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
     border-radius: 25px;
+    border: rgba(73, 73, 73, 0.25) solid;
     background: radial-gradient(circle at 25% 69%, rgba(50, 50, 50, 0.5) 0%, rgba(0, 0, 0, 0.75) 75%);
     color: white;
     cursor: pointer;
+}
+
+div a {
+    text-decoration: none;
+    color: white;
 }
 
 .container:hover {
@@ -89,7 +121,46 @@ img {
     transition: 500ms ease;
 }
 
-.about-us {
-    background: rgba(0, 0, 0, 0.432);
-    border-radius: 15px;
+img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.container h1 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.625rem;
+    font-size: 3.125rem;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.container h2 {
+    font-size: 1.875rem;
+    padding-top: 0.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.container p {
+    margin: 0.315;
+    font-size: 1.56rem;
+    text-align: center;
+}
+
+.small {
+    font-size: 1.25rem;
+}
+
+.title {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@keyframes fly-in {
+    0% {
+        bottom: -8rem;
+    }
+
+    100% {
+        bottom: 0;
+    }
 }

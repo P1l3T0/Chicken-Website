@@ -15,8 +15,6 @@ header {
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    text-align: center;
     text-shadow: 2px 2px 4px rgb(24, 24, 24);
 }
 

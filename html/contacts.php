@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/contacts.css">
+    <link rel="stylesheet" href="../css/style.css">
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
@@ -18,14 +18,14 @@
     <script src="../js/contacts.js"></script>
 </head>
 
-<body>
+<body class="contacts-body">
     <?php 
         include_once '1header.php';
     ?>
 
-    <div class="container">
-        <form onsubmit=" reset(); return false;">
-            <h3>Contact us</h3>
+    <div class="contacts-container">
+        <form class="contacts-form" onsubmit=" reset(); return false;">
+            <h1>Contact us</h1>
             <?php 
                 if (isset($_SESSION["userID"])) {
                     echo "<input type='text' id='name' value='$_SESSION[username]' required>";

@@ -2,19 +2,19 @@
 <html lang="en">
 
 <head>
+    <title>Pileshkiq About</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/about.css">
-    <title>Pileshkiq About</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<body>
+<body class="about-body">
     <?php
         include_once '1header.php';
     ?>
 
-    <section class="about">
+    <section class="about-section">
         <div class="main">
             <img src="../pictures/AIpile4.webp" alt="pile sus slun4evi ochila">
             <div class="about-text">
@@ -34,8 +34,8 @@
         </div>
     </section>
 
-    <div class="cards">
-        <div class="container fly-in">
+    <div class="about-cards">
+        <div class="about-container fly-in">
             <a href="https://github.com/P1l3T0" target="_blank">
                 <img src="../pictures/1jolynePNG.webp" />
                 <div>
@@ -47,7 +47,7 @@
             </a>
         </div>
 
-        <div class="container fly-in">
+        <div class="about-container fly-in">
             <a href="https://docs.midjourney.com/" target="_blank">
                 <img src="../pictures/1hentie.webp" />
                 <div>
@@ -59,7 +59,7 @@
             </a>
         </div>
 
-        <div class="container fly-in">
+        <div class="about-container fly-in">
             <a href="https://www.linkedin.com/in/vasil-ganev-2507a3210/" target="_blank">
                 <img src="../pictures/1shanks.webp" />
                 <div>

@@ -2,20 +2,20 @@
 <html lang="en">
 
 <head>
+    <title>Pileshkiq Sign Up</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pileshkiq Register</title>
-    <link rel="stylesheet" href="../css/signup.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<body>
+<body class="signup-body">
     <?php 
-        include_once '../html/1header.php';
+        include_once '1header.php';
     ?>
     
-    <div class="form-container">
-        <form action="includes/signup.inc.php" method="POST">
+    <div class="signup form-container">
+        <form action="../includes/signup.inc.php" method="POST">
             <h3>Sign up now</h3>
             <input type="text" name="username" placeholder="Username">
             <input type="email" name="email" placeholder="Email">
@@ -27,7 +27,7 @@
     </div>
 
     <?php 
-        include_once "../html/2footer.html";
+        include_once "2footer.html";
     ?>
 </body>
 

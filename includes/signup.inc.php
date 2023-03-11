@@ -10,30 +10,30 @@ if (isset($_POST["submit"])) {
     require_once 'functions.inc.php';
 
     if (emptyInputSignup($username, $email, $pwd, $pwdRepeat) !== false) {
-        header("Location: ../signup.php?errot=emptyInput");
+        header("Location: /html/signup.php?errot=emptyInput");
         exit();
     }
     if (invalidUsername($username) !== false) {
-        header("Location: ../signup.php?errot=invalidUsername");
+        header("Location: /html/signup.php?errot=invalidUsername");
         exit();
     }
     if (invalidEmail($email) !== false) {
-        header("Location: ../signup.php?errot=invalidEmail");
+        header("Location: /html/signup.php?errot=invalidEmail");
         exit();
     }
     if (pwdMatch($pwd, $pwdRepeat) !== false) {
-        header("Location: ../signup.php?errot=passrodsDon'tMatch");
+        header("Location: /html/signup.php?errot=passrodsDon'tMatch");
         exit();
     }
     if (usernameExists($conn, $username, $email) !== false) {
-        header("Location: ../signup.php?errot=usernameExists");
+        header("Location: /html/signup.php?errot=usernameOrEmailAlreadyExists");
         exit();
     }
 
     createUser($conn, $username, $email, $pwd);
 }
 else {
-    header("Location: ../signup.php");
+    header("Location: /html/signup.php");
     exit();
 }
 

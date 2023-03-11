@@ -47,7 +47,7 @@ function usernameExists($conn, $username, $email) {
     $stmt = mysqli_stmt_init($conn); //!user moje da pishe kod v poletata i da precaraka neshto 
                                         //!i pravim prepare statement za edin vid zashtita ig
     if (!mysqli_stmt_prepare($stmt, $sql)) {
-        header("Location: ../signup.php?errot=stmtFailed");
+        header("Location: ../html/signup.php?errot=stmtFailed");
         exit();
     }
 
@@ -72,7 +72,7 @@ function createUser($conn, $username, $email, $pwd) {
     $stmt = mysqli_stmt_init($conn); 
 
     if (!mysqli_stmt_prepare($stmt, $sql)) {
-        header("Location: ../signup.php?errot=stmtFailed");
+        header("Location: ../html/signup.php?errot=stmtFailed");
         exit();
     }
 
@@ -101,7 +101,7 @@ function loginUser($conn, $username, $pwd) {
     $usernameExists = usernameExists($conn, $username, $username);
 
     if ($usernameExists === false) {
-        header("Location: ../login.php?error=usernameDoes'tExist");
+        header("Location: /html/login.php?error=usernameDoes'tExist");
         exit();
     }
 
@@ -109,7 +109,7 @@ function loginUser($conn, $username, $pwd) {
     $checkPassword = password_verify($pwd, $pwdHashed);
 
     if ($checkPassword === false) {
-        header("Location: ../login.php?error=wrongLogin");
+        header("Location: /html/login.php?error=wrongLogin");
         exit();
     }
     else if ($checkPassword === true) {

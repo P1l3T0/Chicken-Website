@@ -3,16 +3,16 @@
 <html lang="en">
 
 <head>
-    <title>Pileshkiq Breeds</title>
+    <title>Pileshkiq Top Breeds</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/top-breeds.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <script defer src="../js/gallery.js"></script>
 </head>
 
-<body>
+<body class="top-breeds-body">
     <?php 
         include_once '1header.php';
     ?>
@@ -240,10 +240,8 @@
         </div>
         <a class="gotop" href="#"><i class="fa-solid fa-square-up"></i>⇧</a>
     </div>
-
     <?php 
         include_once "2footer.html";
     ?>
 </body>
-
 </html>

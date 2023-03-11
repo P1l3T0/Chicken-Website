@@ -5,16 +5,16 @@
     <title>Pileshkiq News</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/news.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<body>
+<body class="news-body">
     <?php 
         include_once "1header.php";
     ?>
 
-    <div class="container">
-        <div class="card">
+    <div class="news-container">
+        <div class="news-card">
             <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">
                 <img src="https://picsum.photos/400/300?random=1">
                 <h2>Local chicken farmer wins award</h2>
@@ -22,7 +22,7 @@
             </a>
         </div>
 
-        <div class="card">
+        <div class="news-card">
             <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">
                 <img src="https://picsum.photos/400/300?random=2">
                 <h2>New chicken breed discovered</h2>
@@ -30,7 +30,7 @@
             </a>
         </div>
 
-        <div class="card">
+        <div class="news-card">
             <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">
                 <img src="https://picsum.photos/400/300?random=3">
                 <h2>Chicken industry sees record profits</h2>
@@ -38,7 +38,7 @@
             </a>
         </div>
 
-        <div class="card">
+        <div class="news-card">
             <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">
                 <img src="https://picsum.photos/400/300?random=4">
                 <h2>Chicken prices expected to rise</h2>
@@ -46,7 +46,7 @@
             </a>
         </div>
 
-        <div class="card">
+        <div class="news-card">
             <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">
                 <img src="https://picsum.photos/400/300?random=5">
                 <h2>Chicken farms adapt to climate change</h2>
@@ -54,7 +54,7 @@
             </a>
         </div>
 
-        <div class="card">
+        <div class="news-card">
             <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">
                 <img src="https://picsum.photos/400/300?random=6">
                 <h2>Is organic chicken worth the extra cost?</h2>
@@ -66,6 +66,12 @@
     <?php 
         include_once "2footer.html";
     ?>
+
+    <style>
+        header {
+            margin-bottom: 1.25rem;
+        }
+    </style>
 </body>
 
 </html>

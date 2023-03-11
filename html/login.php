@@ -2,20 +2,20 @@
 <html lang="en">
 
 <head>
+    <title>Pileshkiq Login</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pileshkiq Login</title>
-    <link rel="stylesheet" href="../css/signup.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<body>
+<body class="signup-body">
     <?php 
-        include_once '../html/1header.php';
+        include_once '1header.php';
     ?>
     
     <div class="form-container">
-        <form action="includes/login.inc.php" method="POST">
+        <form action="../includes/login.inc.php" method="POST">
             <h3>Login now</h3>
             <input type="text" name="username" placeholder="Username / Email">
             <input type="password" name="pwd" placeholder="Password">
@@ -25,7 +25,7 @@
     </div>
 
     <?php 
-        include_once "../html/2footer.html";
+        include_once "2footer.html";
     ?>
 </body>
 

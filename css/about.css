@@ -157,7 +157,7 @@ img {
 
 @keyframes fly-in {
     0% {
-        bottom: -8rem;
+        bottom: -4rem;
     }
 
     100% {

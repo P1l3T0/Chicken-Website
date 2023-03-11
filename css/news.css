@@ -9,8 +9,12 @@ body {
 }
 
 header {
-    padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
+}
+
+div a {
+    text-decoration: none;
+    color: black;
 }
 
 .container {
@@ -19,22 +23,21 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
 
 .card {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem;
     flex-basis: calc(33.33% - 20px);
-    padding: 20px;
     box-sizing: border-box;
     border-radius: 25px;
     border: 5px solid #ccc;
 }
 
 .card:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
     transition: 1s ease;
     cursor: pointer;
 }
@@ -45,17 +48,17 @@ header {
 
 .card img {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.6rem;
     border-radius: 10px;
 }
 
 .card h2 {
-    font-size: 24px;
-    margin: 0 0 10px 0;
+    font-size: 1.5rem;
+    margin: 0 0 0.6rem 0;
 }
 
 .card p {
-    font-size: 14px;
+    font-size: 1rem;
     margin: 0;
-    line-height: 1.5;
+    line-height: 1.5rem;
 }

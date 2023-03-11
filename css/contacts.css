@@ -1,6 +1,6 @@
 h2 {
-    font-size: 75px;
-    margin-top: 350px;
+    font-size: 4.7rem;
+    margin-top: 21rem;
     color: white;
 }
 
@@ -37,7 +37,7 @@ form {
     flex-direction: column;
     padding: 2vw 4vw;
     width: 90%;
-    max-width: 600px;
+    max-width: 37.5rem;
     border-radius: 10px;
     opacity: 85%;
 }
@@ -51,32 +51,32 @@ form h3 {
 
 form p {
     color: #555555bb;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.56;
 }
 
 
 form input,
 form textarea {
     border: 0;
-    margin: 10px 0;
-    padding: 20px;
+    margin: 0.6rem 0;
+    padding: 1.25rem;
     outline: none;
     background: #f5f5f5;
-    font-size: 16px;
+    font-size: 1rem;
     resize: none;
 }
 
 form button {
-    padding: 5px;
+    padding: 0.3rem;
     background: #fddc94;
     color: orange;
-    font-size: 30px;
+    font-size: 1.875rem;
     border: 0;
     outline: none;
-    width: 150px;
-    margin: 20px auto 0;
+    width: 9.375rem;
+    margin: 1.25rem auto 0;
     cursor: pointer;
     border-radius: 15px;
 }

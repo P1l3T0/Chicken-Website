@@ -9,12 +9,12 @@
 
 
 footer {
-    margin-top: 55px;
+    margin-top: 3.438rem;
     background-color: #333;
     color: #fff;
-    height: 220px; 
+    height: 13.75rem; 
     width: auto;
-    padding-top: 20px;
+    padding-top: 1.25rem;
     bottom: 0;
     left: 0;
     right: 0;
@@ -35,7 +35,7 @@ footer {
     font-family: "Popins", sans-serif;
     color: #fff;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 400;
     line-height: 2rem;
     text-shadow: 3px 3px 5px rgb(0, 0, 0);
@@ -44,10 +44,10 @@ footer {
 .footer-content p {
     font-family: 'Golos Text', sans-serif;
     font-style: italic;
-    max-width: 1000px;
-    margin: 10px auto;
-    line-height: 30px;
-    font-size: 20px;
+    max-width: 62.5rem;
+    margin: 0.625rem auto;
+    line-height: 1.875rem;
+    font-size: 1.25rem;
 
 }
 
@@ -56,11 +56,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px 0 15px 0;
+    margin: 0.625rem 0 1rem 0;
 }
 
 .socials li {
-    margin: 0 10px;
+    margin: 0 .7rem;
 }
 
 .socials a {
@@ -69,7 +69,7 @@ footer {
 }
 
 .socials a i {
-    font-size: 25px;
+    font-size: 1.6rem;
     transition: 500ms ease;
 }
 

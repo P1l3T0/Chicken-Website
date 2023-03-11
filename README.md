@@ -25,5 +25,5 @@ Microsoft Visual Studio Code - IDE used for writing almost everything
 This website was created by P1l3T0 and it uses the following resources: <br>
 
 Midjourney for some of the splash art icons. <br>
-Pexels for the chicken photos.
+Pexels for the chicken photos. <br>
 Some anime photos (I hope I don't get in legal trouble for this one 💀)

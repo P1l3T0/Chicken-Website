@@ -19,7 +19,7 @@
 }
 
 
-/* ! header css */
+/* ! hamburger css */
 
 
 header {
@@ -31,40 +31,99 @@ header {
     text-shadow: 3px 3px 5px rgb(24, 24, 24);
 }
 
-header h1 {
-    font-size: 1.875rem;
+header a {
+    cursor: pointer;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #fff;
 }
 
-.header-nav .header-ul {
+.hamburger-nav {
+    color: white;
     display: flex;
+    justify-content: space-between;
 }
 
-.header-nav .header-li {
-    margin-right: 1.25rem;
-    list-style: none;
+.hamburger-nav .main-menu {
+    display: flex; 
+    list-style: none; 
 }
 
-.header-nav .header-a {
+.hamburger-nav .main-menu a {
+    display: inline-block;
+    padding: 1rem; 
     text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.75rem;
     color: #adadad;
-    font-size: 1.563rem;
-    font-weight: bold;
+    font-weight: bold;  
 }
 
-.header-nav .header-a:hover {
+.hamburger-nav .main-menu a:hover {
     color: #ff8c00;
     transition: 500ms ease;
 }
 
-.header-nav .header-a:not(:hover) {
+.hamburger-nav .main-menu a:not(:hover) {
     transition: 500ms ease;
 }
 
-.header-a:is(:link, :active, :visited).active {
+.hamburger-nav .main-menu a:is(:link, :active, :visited).active {
     color: orange;
     transition: none;
+}
+
+.hamburger-nav .open-menu {
+    font-size: 2rem;
+    margin: 1.25rem;
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger-nav .main-menu .close-menu {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger-nav .logo {
+    margin: .5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+@media(max-width: 800px) {
+    .hamburger-nav .main-menu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: black;
+        transition: top 1s ease;
+        display: none;
+    }
+
+    .hamburger-nav .main-menu .close-menu {
+        display: block;
+        position: absolute;
+        top: 1.25rem;
+        right: 1.25rem;
+    }
+
+    .hamburger-nav .open-menu {
+        display: block;
+    }
+
+    .hamburger-nav .main-menu li a:hover {
+        background: none;
+        color: orange;
+        font-size: 1.5rem;
+    }
 }
 
 .prelaoder {
@@ -76,9 +135,7 @@ header h1 {
     z-index: 999;
 }
 
-
 /* ! home css */
-
 
 .featured h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -136,27 +193,27 @@ header h1 {
 
 /* ? tova e za featured content kartite */
 
-.home-cards {
+.home-container {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center; /* centers the container horizontally */
+    align-items: center; /* centers the container vertically */
+    max-width: 100%; /* sets a maximum width for the container */
+    margin: 0 auto; 
     gap: 2rem;
     height: 100%;
     width: 100%;
 }
 
-.home-container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: start;
+.home-cards {
     box-sizing: border-box;
     border: rgba(73, 73, 73, 0.25) solid;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 25px;
     background: radial-gradient(circle at 25% 69%, rgba(50, 50, 50, 0.5) 0%, rgba(0, 0, 0, 0.75) 75%);
     color: white;
+    width: 100%;
+    height: 100%;
 }
 
 .home-container h3 {
@@ -165,12 +222,12 @@ header h1 {
     text-shadow: 3px 3px 5px rgb(24, 24, 24);
 }
 
-.home-container:hover {
+.home-cards:hover {
     color: orange;
     transition: 500ms ease;
 }
 
-.home-container:not(:hover) {
+.home-cards:not(:hover) {
     transition: 500ms ease;
 }
 
@@ -203,7 +260,7 @@ header h1 {
     position: absolute;
     z-index: 1;
     font-size: 1.25rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .tooltip:hover .tooltip-text {
@@ -298,7 +355,7 @@ footer {
 
 
 .about-body {
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #191919;
@@ -369,53 +426,53 @@ footer {
 
 /* ? kartite */
 
-.about-cards {
+.about-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* centers the container horizontally */
+    align-items: center; /* centers the container vertically */
+    margin: 0 auto; 
     gap: 2rem;
-    align-items: center;
-    justify-content: center;
-    height: 25%;
+    height: 100%;
     width: 100%;
-    flex-direction: row;
+    max-width: 100%;
 }
 
-.about-container {
-    position: relative;
+
+.about-cards {
     padding: 1.56rem;
-    border-radius: 5px;
     animation: fly-in 2s ease;
     margin: 1rem;
-    align-items: center;
-    flex-direction: column;
-    box-sizing: border-box;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 25px;
     border: rgba(73, 73, 73, 0.25) solid;
     background: radial-gradient(circle at 25% 69%, rgba(50, 50, 50, 0.5) 0%, rgba(0, 0, 0, 0.75) 75%);
     color: white;
     cursor: pointer;
+    max-width: 500px; /* sets a maximum width for the items */
+    margin: 1rem;
 }
 
-.about-container a {
+
+.about-cards a {
     text-decoration: none;
     color: white;
 }
 
-.about-container:hover {
+.about-cards:hover {
     transform: scale(1.03);
     transition: 500ms ease;
 }
 
-.about-container:not(:hover) {
+.about-cards:not(:hover) {
     transition: 500ms ease;
 }
 
-.about-container img {
+.about-cards img {
     width: 100%;
-    border-radius: 25px;
 }
 
-.about-container h1 {
+.about-cards h1 {
     margin-top: 1.5rem;
     margin-bottom: 0.625rem;
     font-size: 3.125rem;
@@ -423,25 +480,30 @@ footer {
     text-shadow: 3px 3px 5px rgb(24, 24, 24);
 }
 
-.about-container h2 {
+.about-cards h2 {
     font-size: 1.875rem;
     padding-top: 0.3rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
 }
 
-.about-container p {
-    margin: 0.315;
-    font-size: 1.56rem;
+.about-cards p {
     text-align: center;
 }
 
 .small {
-    font-size: 1.25rem;
+    font-size: 1.3rem;
+    margin: 0.5rem;
 }
 
 .title {
     color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+}
+
+.email {
+    font-size: 1.4rem;
+    margin-top: 2rem;
 }
 
 @keyframes fly-in {
@@ -679,7 +741,7 @@ footer {
 
 .form-container form .button:hover {
     background: orange;
-    color: #fff ;
+    color: #fff;
     transition: 500ms ease;
 }
 
@@ -787,7 +849,6 @@ footer {
     width: 100%;
     height: 100%;
     object-fit: cover;
-
 }
 
 .gallery img {
@@ -850,13 +911,14 @@ footer {
 
 /* ? ne znam kude sum gledal kato sum go pisal tova no znam kakvo pravi */
 
-@media (min-width: 640px) {
+@media (min-width: 800px) {
     .gallery {
-        display: grid;
+        display: grid; 
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 300px);
+        grid-template-rows: repeat(5, 300px); 
         grid-auto-flow: row dense;
     }
+
     .gallery-item {
         margin: .5rem;
     }
@@ -900,6 +962,7 @@ footer {
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(3, auto-flow);
     }
+
     .gallery-item:first-child {
         grid-column: span 2;
         grid-row: span 1;
@@ -939,7 +1002,7 @@ footer {
 
 
 .top-breeds-body {
-    background-image: radial-gradient( #a0a0a0, #1c2122);
+    background-image: radial-gradient(#a0a0a0, #1c2122);
     color: white;
 }
 

@@ -119,6 +119,7 @@ header h1 {
 .home-section h2 {
     font-weight: bold;
     font-size: 3.75rem;
+    text-shadow: 3px 3px 5px rgb(24, 24, 24);
 }
 
 .home-section p {
@@ -126,6 +127,11 @@ header h1 {
     font-size: 2rem;
     margin-bottom: 4.7rem;
     color: rgba(255, 255, 255, .75);
+}
+
+.home-section span {
+    color: rgb(255, 153, 0);
+    font-weight: 500px;
 }
 
 /* ? tova e za featured content kartite */
@@ -225,7 +231,7 @@ footer {
     right: 0;
     border-top: 1px solid #414141;
     text-shadow: 3px 3px 5px rgb(24, 24, 24);
-    color: #646464;
+    color: #a1a1a1;
 }
 
 .footer-content {
@@ -465,7 +471,7 @@ footer {
 }
 
 .contacts-container {
-    /* width: 100%; */
+    width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -486,10 +492,11 @@ footer {
 }
 
 .contacts-form h1 {
-    font-weight: 800;
+    /* font-weight: 800; */
     margin-bottom: 1rem;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .contacts-form p {
@@ -761,11 +768,11 @@ footer {
 
 
 .gallery-body {
-    background: radial-gradient(circle at 25% 69%, rgb(90, 90, 90) 0%, rgb(0, 0, 0) 99%);
+    background: radial-gradient(circle at 25% 69%, rgb(90, 90, 90) 0%, rgba(0, 0, 0, 0.8) 99%);
     overflow-x: hidden;
 }
 
-/* !tova e za snimkite nqkoi neshta */
+/* ? tova e za snimkite */
 
 .gallery {
     margin: 0 0.65rem;
@@ -826,6 +833,7 @@ footer {
     bottom: 2.5rem;
     right: 3.125rem;
     background: #ffffff;
+    color: black;
     border-radius: 50%;
     text-align: center;
     font-size: 2.5rem;
@@ -931,7 +939,7 @@ footer {
 
 
 .top-breeds-body {
-    background: radial-gradient(circle at 25% 69%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 75%);
+    background-image: radial-gradient( #a0a0a0, #1c2122);
     color: white;
 }
 
@@ -948,6 +956,7 @@ footer {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 4rem;
     text-align: center;
+    text-shadow: 3px 3px 5px rgb(24, 24, 24);
 }
 
 .box {
@@ -960,7 +969,7 @@ footer {
     font-size: 1.25rem;
     margin-left: 1.5rem;
     margin-top: 1rem;
-    text-shadow: 2px 2px 4px rgb(139, 139, 139);
+    text-shadow: 3px 3px 5px rgb(24, 24, 24);
 }
 
 .link:hover {

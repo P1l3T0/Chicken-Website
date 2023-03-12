@@ -16,7 +16,7 @@
     
     <div class="form-container">
         <form action="../includes/login.inc.php" method="POST">
-            <h3>Login now</h3>
+            <h3>Log in</h3>
             <input type="text" name="username" placeholder="Username / Email">
             <input type="password" name="pwd" placeholder="Password">
             <input type="submit" name="submit" value="Login" class="button">

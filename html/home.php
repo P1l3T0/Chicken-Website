@@ -19,7 +19,7 @@
         <h1 class="fact-display"></h1>
         <?php
             if (isset($_SESSION["userID"]))
-                echo "<h2>Welcome " .$_SESSION["username"]. " to Pileshkiq!</h2> ";
+                echo "<h2>Welcome <span>🐣" .$_SESSION["username"]. "🐣</span> to Pileshkiq!</h2> ";
             else
                 echo "<h2>Welcome to Pileshkiq!</h2>";
         ?>

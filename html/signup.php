@@ -16,13 +16,13 @@
     
     <div class="signup form-container">
         <form action="../includes/signup.inc.php" method="POST">
-            <h3>Sign up now</h3>
+            <h3>Sign up</h3>
             <input type="text" name="username" placeholder="Username">
             <input type="email" name="email" placeholder="Email">
             <input type="password" name="pwd" placeholder="Password">
             <input type="password" name="pwdRepeat" placeholder="Confirm password">
             <input type="submit" name="submit" value="register" class="button">
-            <p>Already have an account? <a href="login.php">Login now!</a></p>
+            <p>Already have an account? <a href="login.php">Log in now!</a></p>
         </form>
     </div>
 

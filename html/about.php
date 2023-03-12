@@ -11,7 +11,7 @@
 
 <body class="about-body">
     <?php
-        include_once '1header.php';
+        include_once 'header.php';
     ?>
 
     <section class="about-section">
@@ -73,14 +73,11 @@
     </div>
 
     <script>
-        window.addEventListener('load', function () {
-            var flyInDiv = document.querySelector('.fly-in');
-            flyInDiv.style.display = 'block';
-        });
+        
     </script>
 
     <?php
-        include_once '2footer.html';
+        include_once 'footer.html';
     ?>
 </body>
 

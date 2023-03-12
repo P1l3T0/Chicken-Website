@@ -3,7 +3,7 @@
 ?>
 
 <link rel="stylesheet" href="../css/style.css">
-<script defer src="../js/header.js"></script>
+<script defer src="../js/home.js"></script>
 <div class="prelaoder" id="preloader"></div>
 
 <header>

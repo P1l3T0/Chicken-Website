@@ -10,7 +10,7 @@
 
 <body class="news-body">
     <?php 
-        include_once "1header.php";
+        include_once "header.php";
     ?>
 
     <div class="news-container">
@@ -58,13 +58,13 @@
             <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">
                 <img src="https://picsum.photos/400/300?random=6">
                 <h2>Is organic chicken worth the extra cost?</h2>
-                <p>QDEM SAMO ISTINSKO PILESHKO ILI SMURT</p>
+                <p>qdem samo istinsko pileshko meso!</p>
             </a>
         </div>
     </div>
 
     <?php 
-        include_once "2footer.html";
+        include_once "footer.html";
     ?>
 
     <style>

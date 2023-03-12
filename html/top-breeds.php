@@ -9,12 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
-    <script defer src="../js/gallery.js"></script>
+    <script defer src="../js/home.js"></script>
 </head>
 
 <body class="top-breeds-body">
     <?php 
-        include_once '1header.php';
+        include_once 'header.php';
     ?>
 
     <h2>Top Chicken Breeds</h2>
@@ -34,7 +34,7 @@
 
     <div>
         <div class="image-container hidden" id="div1">
-            <img data-lazy="../pictures/cochin.webp" />
+            <img data-lazy="../pictures/cochin.webp" class="lazy-image"/>
             <div class="text-overlay">
                 <h2>Cochin</h2>
                 <p>
@@ -51,7 +51,7 @@
         </div>
 
         <div class="image-container hidden" id="div2">
-            <img data-lazy="../pictures/leghorn.webp" />
+            <img data-lazy="../pictures/leghorn.webp" class="lazy-image"/>
             <div class="text-overlay">
                 <h2>Leghorn</h2>
                 <p>
@@ -68,7 +68,7 @@
         </div>
 
         <div class="image-container hidden" id="div3">
-            <img data-lazy="../pictures/ISA-Brown.webp" />
+            <img data-lazy="../pictures/ISA-Brown.webp" class="lazy-image"/>
             <div class="text-overlay">
                 <h2>ISA Brown</h2>
                 <p>
@@ -86,7 +86,7 @@
         </div>
 
         <div class="image-container hidden" id="div4">
-            <img data-lazy="../pictures/plymouth-rock.webp" />
+            <img data-lazy="../pictures/plymouth-rock.webp" class="lazy-image"/>
             <div class="text-overlay">
                 <h2>Plymouth Rock</h2>
                 <p>
@@ -104,7 +104,7 @@
         </div>
 
         <div class="image-container hidden" id="div5">
-            <img data-lazy="../pictures/barnevelder.webp" />
+            <img data-lazy="../pictures/barnevelder.webp" class="lazy-image"/>
             <div class="text-overlay">
                 <h2>Barnevelder</h2>
                 <p>
@@ -121,7 +121,7 @@
         </div>
 
         <div class="image-container hidden" id="div6">
-            <img data-lazy="../pictures/australorp.webp" />
+            <img data-lazy="../pictures/australorp.webp" class="lazy-image"/>
             <div class="text-overlay">
                 <h2>Australorps</h2>
                 <p>
@@ -139,7 +139,7 @@
         </div>
 
         <div class="image-container hidden" id="div7">
-            <img data-lazy="../pictures/naked-neck.webp" />
+            <img data-lazy="../pictures/naked-neck.webp" class="lazy-image"/>
             <div class="text-overlay">
                 <h2>Naked Neck</h2>
                 <p>
@@ -161,7 +161,7 @@
         </div>
 
         <div class="image-container hidden" id="div8">
-            <img data-lazy="../pictures/sussex.webp" />
+            <img data-lazy="../pictures/sussex.webp" class="lazy-image"/>
             <div class="text-overlay">
                 <h2>Sussex</h2>
                 <p>
@@ -181,7 +181,7 @@
         </div>
 
         <div class="image-container hidden" id="div9">
-            <img data-lazy="../pictures/new-hampshire-red.webp" />
+            <img data-lazy="../pictures/new-hampshire-red.webp" class="lazy-image"/>
             <div class="text-overlay">
                 <h2>New Hampshire Red</h2>
                 <p>
@@ -202,7 +202,7 @@
         </div>
 
         <div class="image-container hidden" id="div10">
-            <img data-lazy="../pictures/silkie.webp" />
+            <img data-lazy="../pictures/silkie.webp" class="lazy-image"/>
             <div class="text-overlay">
                 <h2>Silkie</h2>
                 <p>
@@ -224,7 +224,7 @@
         </div>
 
         <div class="image-container hidden" id="div11">
-            <img data-lazy="../pictures/belgian-duccle.webp" />
+            <img data-lazy="../pictures/belgian-duccle.webp" class="lazy-image"/>
             <div class="text-overlay">
                 <h2>Belgian d’Uccle</h2>
                 <p>
@@ -241,7 +241,7 @@
         <a class="gotop" href="#"><i class="fa-solid fa-square-up"></i>⇧</a>
     </div>
     <?php 
-        include_once "2footer.html";
+        include_once "footer.html";
     ?>
 </body>
 </html>

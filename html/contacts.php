@@ -20,7 +20,7 @@
 
 <body class="contacts-body">
     <?php 
-        include_once '1header.php';
+        include_once 'header.php';
     ?>
 
     <div class="contacts-container">
@@ -28,8 +28,8 @@
             <h1>Contact us</h1>
             <?php 
                 if (isset($_SESSION["userID"])) {
-                    echo "<input type='text' id='name' value='$_SESSION[username]' required>";
-                    echo "<input type='email' id='email' value='$_SESSION[email]' required>";
+                    echo "<input type='text' id='name' class='name' value='$_SESSION[username]' required>";
+                    echo "<input type='email' id='email' class='email' value='$_SESSION[email]' required>";
                     echo "<textarea id='message' rows='4' placeholder='your text goes here' required></textarea>";
                     echo "<button type='submit' onclick='sendEmail();'>Send</button>";
                 } 
@@ -44,7 +44,7 @@
     </div>
 
     <?php 
-        include_once "2footer.html";
+        include_once "footer.html";
     ?>
 </body>
 

@@ -1,4 +1,11 @@
 randomFacts();
+chickenLoader();
+lazyLaoding();
+showPictures();
+activeLink();
+flyIn();
+
+//! home page 
 
 function randomFacts() {
     const chickenFacts = [
@@ -28,4 +35,70 @@ function randomFacts() {
         const randomFact = chickenFacts[Math.floor(Math.random() * chickenFacts.length)];
         factDisplay.textContent = randomFact;
     }
+}
+
+function chickenLoader() {
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function () {
+        loader.style.display = "none";
+    });
+}
+
+//! header
+
+function activeLink() {
+    const activePage = window.location.pathname;
+    const navLinks = document.querySelectorAll('nav a')
+        .forEach(link => {
+            if (link.href.includes(`${activePage}`)) {
+                link.classList.add('active');
+            }
+        });
+    }
+
+//! gallery/top-breeds
+
+function lazyLaoding() {
+    const targets = [...document.getElementsByClassName('lazy-image')];
+
+    const lazyLoad = target => {
+        const io = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    const src = img.getAttribute('data-lazy');
+
+                    img.setAttribute('src', src);
+                    observer.disconnect();
+                };
+            });
+        });
+        io.observe(target);
+    };
+    targets.forEach(lazyLoad);
+}
+
+function showPictures() {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            console.log(entry);
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+            } else {
+                entry.target.classList.remove("show");
+            }
+        });
+    });
+    
+    const hiddenElements = document.querySelectorAll(".hidden");
+    hiddenElements.forEach((el) => observer.observe(el));
+}
+
+//! about
+
+function flyIn() {
+    window.addEventListener('load', function () {
+        var flyInDiv = document.querySelector('.fly-in');
+        flyInDiv.style.display = 'block';
+    });
 }

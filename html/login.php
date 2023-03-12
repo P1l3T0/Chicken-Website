@@ -11,7 +11,7 @@
 
 <body class="signup-body">
     <?php 
-        include_once '1header.php';
+        include_once 'header.php';
     ?>
     
     <div class="form-container">
@@ -25,7 +25,7 @@
     </div>
 
     <?php 
-        include_once "2footer.html";
+        include_once "footer.html";
     ?>
 </body>
 

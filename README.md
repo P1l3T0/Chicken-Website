@@ -37,4 +37,6 @@ Some anime photos (I hope I don't get in legal trouble for this one 💀)
 
 If by any chance someone decides to look at this crap, needs to open the Chicken-Website-master 2nd foldier in your IDE and also
 needs to have a database with the following characteristics: <br>
-Database name - user_db <br> table name - pileshkiq_users <br> column names - userID, username, email, password
+Database name - user_db <br>
+Table name - pileshkiq_users <br>
+Column names - userID, username, email, password

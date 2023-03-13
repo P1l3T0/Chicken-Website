@@ -114,16 +114,19 @@ header a {
         position: absolute;
         top: 1.25rem;
         right: 1.25rem;
+        transition: 1s;
     }
 
     .hamburger-nav .open-menu {
         display: block;
+        transition: 1s;
     }
 
     .hamburger-nav .main-menu li a:hover {
         background: none;
         color: orange;
         font-size: 1.5rem;
+        transition: 1s;
     }
 }
 

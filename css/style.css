@@ -407,6 +407,7 @@ footer {
     text-transform: capitalize;
     font-size: 5rem;
     margin-top: 2.5rem;
+    text-shadow: 3px 3px 5px rgb(24, 24, 24);
 }
 
 .about-section .about-content h5 {
@@ -415,6 +416,7 @@ footer {
     text-transform: capitalize;
     margin-bottom: 1rem;
     letter-spacing: 2px;
+    text-shadow: 3px 3px 5px rgb(24, 24, 24);
 }
 
 .about-section .about-content p {
@@ -443,9 +445,6 @@ footer {
     align-items: center;
     justify-content: space-around;
 }
-
-
-
 
 
 /* ? kartite */

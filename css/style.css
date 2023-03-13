@@ -201,11 +201,8 @@ header a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* centers the container horizontally */
     align-items: center;
-    /* centers the container vertically */
     max-width: 100%;
-    /* sets a maximum width for the container */
     margin: 0 auto;
     gap: 2rem;
     height: 100%;
@@ -461,7 +458,6 @@ footer {
     max-width: 100%;
 }
 
-
 .about-cards {
     padding: 1.56rem;
     animation: fly-in 2s ease;
@@ -482,17 +478,18 @@ footer {
     color: white;
 }
 
-.about-cards:hover {
+.about-cards img:hover {
     transform: scale(1.03);
     transition: 500ms ease;
 }
 
-.about-cards:not(:hover) {
+.about-cards img:not(:hover) {
     transition: 500ms ease;
 }
 
 .about-cards img {
     width: 100%;
+    border-radius: 25px;
 }
 
 .about-cards h1 {
@@ -814,6 +811,8 @@ footer {
     box-sizing: border-box;
     border-radius: 25px;
     border: 5px solid #ccc;
+    width: 75%;
+    height: auto;
 }
 
 .news-card:hover {

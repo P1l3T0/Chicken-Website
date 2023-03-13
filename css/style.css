@@ -45,18 +45,19 @@ header a {
 }
 
 .hamburger-nav .main-menu {
-    display: flex; 
-    list-style: none; 
+    display: flex;
+    list-style: none;
+    padding: 0;
 }
 
 .hamburger-nav .main-menu a {
     display: inline-block;
-    padding: 1rem; 
+    padding: 1rem;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.75rem;
     color: #adadad;
-    font-weight: bold;  
+    font-weight: bold;
 }
 
 .hamburger-nav .main-menu a:hover {
@@ -196,10 +197,13 @@ header a {
 .home-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* centers the container horizontally */
-    align-items: center; /* centers the container vertically */
-    max-width: 100%; /* sets a maximum width for the container */
-    margin: 0 auto; 
+    justify-content: center;
+    /* centers the container horizontally */
+    align-items: center;
+    /* centers the container vertically */
+    max-width: 100%;
+    /* sets a maximum width for the container */
+    margin: 0 auto;
     gap: 2rem;
     height: 100%;
     width: 100%;
@@ -365,33 +369,36 @@ footer {
 /* ? snimkata i about us teksta */
 
 .about-section {
-    width: 100%;
-    padding: 4rem 0rem;
+    display: flex;
     justify-content: center;
     align-items: center;
+    margin: 2rem;
 }
 
-.about-section img {
-    height: auto;
-    width: 28rem;
+.about-text {
+    width: 45rem;
+    max-width: 100%;
+    padding: 0 1rem;
+    margin-left: 1.2rem;
+}
+
+.about-section .about-content img {
+    height: 35rem;
+    width: 35rem;
     border-radius: 15px;
     border: white solid;
 }
 
-.about-section .main {
-    width: 94rem;
-    max-width: 95%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+@media (max-width: 800px) {
+    .about-section .about-content img {
+        height: 30rem;
+        width: 30rem;
+        border-radius: 15px;
+        border: white solid;
+    }
 }
 
-.about-text {
-    margin-left: 3.125rem;
-}
-
-.about-text h1 {
+.about-section .about-content h1 {
     font-family: "Popins", sans-serif;
     color: white;
     text-transform: capitalize;
@@ -399,7 +406,7 @@ footer {
     margin-top: 2.5rem;
 }
 
-.about-text h5 {
+.about-section .about-content h5 {
     color: white;
     font-size: 3.125rem;
     text-transform: capitalize;
@@ -407,7 +414,7 @@ footer {
     letter-spacing: 2px;
 }
 
-.about-text p {
+.about-section .about-content p {
     font-family: 'Josefin Sans', sans-serif;
     color: #fcfc;
     letter-spacing: 1px;
@@ -420,18 +427,32 @@ footer {
     box-sizing: border-box;
 }
 
-.about-section span {
+.about-section .about-content span {
     color: orange;
 }
+
+.about-content {
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
 
 /* ? kartite */
 
 .about-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* centers the container horizontally */
-    align-items: center; /* centers the container vertically */
-    margin: 0 auto; 
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
     gap: 2rem;
     height: 100%;
     width: 100%;
@@ -449,7 +470,7 @@ footer {
     background: radial-gradient(circle at 25% 69%, rgba(50, 50, 50, 0.5) 0%, rgba(0, 0, 0, 0.75) 75%);
     color: white;
     cursor: pointer;
-    max-width: 500px; /* sets a maximum width for the items */
+    max-width: 500px;
     margin: 1rem;
 }
 
@@ -913,9 +934,9 @@ footer {
 
 @media (min-width: 800px) {
     .gallery {
-        display: grid; 
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 300px); 
+        grid-template-rows: repeat(5, 300px);
         grid-auto-flow: row dense;
     }
 

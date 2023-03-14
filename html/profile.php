@@ -18,10 +18,10 @@
         <form class="profile-form">
             <h1>user information</h1>
             <div>
-                <h2>Username: <?php echo "<span>".$_SESSION["username"]."</span>" ?></h2>
+                <h2>Email: <?php echo "<span>".$_SESSION["email"]."</span>" ?></h2>
             </div>
             <div>
-                <h2>Email: <?php echo "<span>".$_SESSION["email"]."</span>" ?></h2>
+                <h2>Username: <?php echo "<span>".$_SESSION["username"]."</span>" ?></h2>
             </div>
             <div>
                 <h2>UserID: <?php echo "<span>".$_SESSION["userID"]."</span>" ?></h2>

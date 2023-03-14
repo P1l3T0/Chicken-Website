@@ -186,13 +186,13 @@ header a {
 .home-section p {
     font-family: 'Caveat', cursive;
     font-size: 2rem;
-    margin-bottom: 4.7rem;
+    margin-bottom: 5rem;
     color: rgba(255, 255, 255, .75);
 }
 
 .home-section span {
     color: rgb(255, 153, 0);
-    font-weight: 500px;
+    font-weight: 800;
 }
 
 /* ? tova e za featured content kartite */
@@ -363,7 +363,7 @@ footer {
 }
 
 .socials a:hover .fa-github {
-    color: orange;
+    color: rgb(57,211,83);
 }
 
 
@@ -384,7 +384,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem;
+    margin: 2rem 0 5rem;
+    margin-bottom: 5rem;
 }
 
 .about-text {
@@ -392,6 +393,7 @@ footer {
     max-width: 100%;
     padding: 0 1rem;
     margin-left: 1.2rem;
+    margin-bottom: .5rem;
 }
 
 .about-section .about-content img {
@@ -433,9 +435,8 @@ footer {
     font-family: 'Josefin Sans', sans-serif;
     color: #fcfc;
     letter-spacing: 1px;
-    line-height: 2rem;
+    line-height: 3rem;
     font-size: 2.2rem;
-    margin-bottom: 5rem;
     border: solid;
     border-radius: 15px;
     padding: 1rem;
@@ -453,7 +454,7 @@ footer {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-around;
 }
 

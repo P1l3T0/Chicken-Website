@@ -16,7 +16,7 @@
 
     <div class="profile-container">
         <form class="profile-form">
-            <h1>User Information</h1>
+            <h1>user information</h1>
             <div>
                 <h2>Username: <?php echo "<span>".$_SESSION["username"]."</span>" ?></h2>
             </div>

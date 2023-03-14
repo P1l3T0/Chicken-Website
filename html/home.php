@@ -12,7 +12,7 @@
 
 <body class="home-body">
     <?php
-    include_once 'header.php';
+        include_once 'header.php';
     ?>
 
     <section class="home-section">
@@ -27,36 +27,35 @@
     </section>
 
     <div class="featured">
-        <h2 class="featured-content">Featured Content</h2>
-            <div class="home-container">
-                <a href="../html/top-breeds.php" class="image-button">
-                    <div class="home-cards tooltip">
-                        <span class="tooltip-text">Discover the best breeds of chicken!</span>
-                        <img class="image" src="../pictures/AIpile1.webp" alt="hen with tie">
-                        <h3>Top Breeds</h3>
-                    </div>
-                </a>
+    <h2 class="featured-content">Featured Content</h2>
+        <div class="home-container">
+            <a href="../html/top-breeds.php" class="image-button">
+                <div class="home-cards tooltip">
+                    <span class="tooltip-text">Discover the best breeds of chicken!</span>
+                    <img class="image" src="../pictures/AIpile1.webp" alt="hen with tie">
+                    <h3>Top Breeds</h3>
+                </div>
+            </a>
+            <a href="../html/news.php" class="image-button">
+                <div class="home-cards tooltip">
+                    <span class="tooltip-text">Stay up-to-date with the news!</span>
+                    <img class="image" src="../pictures/AIpile2.webp" alt="Latest Community News">
+                    <h3>Latest news</h3>
+                </div>
+            </a>
 
-                <a href="../html/news.php" class="image-button">
-                    <div class="home-cards tooltip">
-                        <span class="tooltip-text">Stay up-to-date with the news!</span>
-                        <img class="image" src="../pictures/AIpile2.webp" alt="Latest Community News">
-                        <h3>Latest news</h3>
-                    </div>
-                </a>
-
-                <a href="../html/gallery.php" class="image-button">
-                    <div class="home-cards tooltip">
-                        <span class="tooltip-text">View amazing pictures of chicken!</span>
-                        <img class="image" src="../pictures/AIpile3.webp" alt="Chicken Gallery">
-                        <h3>Gallery</h3>
-                    </div>
-                </a>
-            </div>
+            <a href="../html/gallery.php" class="image-button">
+                <div class="home-cards tooltip">
+                    <span class="tooltip-text">View amazing pictures of chicken!</span>
+                    <img class="image" src="../pictures/AIpile3.webp" alt="Chicken Gallery">
+                    <h3>Gallery</h3>
+                </div>
+            </a>
+        </div>
     </div>
 
     <?php
-    include_once "footer.html";
+        include_once "footer.html";
     ?>
 </body>
 

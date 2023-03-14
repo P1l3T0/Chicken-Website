@@ -350,7 +350,19 @@ footer {
     transition: 500ms ease;
 }
 
-.socials a:hover i {
+.socials a:hover .fa-facebook {
+    color: blue;
+}
+
+.socials a:hover .fa-youtube {
+    color: red;
+}
+
+.socials a:hover .fa-twitter {
+    color: rgb(62, 197, 241);
+}
+
+.socials a:hover .fa-github {
     color: orange;
 }
 
@@ -383,7 +395,7 @@ footer {
 }
 
 .about-section .about-content img {
-    height: 35rem;
+    height: 37rem;
     width: 35rem;
     border-radius: 15px;
     border: white solid;
@@ -403,6 +415,7 @@ footer {
     color: white;
     text-transform: capitalize;
     font-size: 5rem;
+    font-weight: 800;
     margin-top: 2.5rem;
     text-shadow: 3px 3px 5px rgb(24, 24, 24);
 }
@@ -420,13 +433,14 @@ footer {
     font-family: 'Josefin Sans', sans-serif;
     color: #fcfc;
     letter-spacing: 1px;
-    line-height: 1.8rem;
+    line-height: 2rem;
     font-size: 2.2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
     border: solid;
     border-radius: 15px;
-    padding: .9rem;
+    padding: 1rem;
     box-sizing: border-box;
+    font-weight: 650;
 }
 
 .about-section .about-content span {
@@ -434,7 +448,7 @@ footer {
 }
 
 .about-content {
-    width: 1300px;
+    width: 82rem;
     max-width: 100%;
     margin: 0 auto;
     display: flex;
@@ -442,7 +456,6 @@ footer {
     align-items: center;
     justify-content: space-around;
 }
-
 
 /* ? kartite */
 
@@ -472,19 +485,9 @@ footer {
     margin: 1rem;
 }
 
-
 .about-cards a {
     text-decoration: none;
     color: white;
-}
-
-.about-cards img:hover {
-    transform: scale(1.03);
-    transition: 500ms ease;
-}
-
-.about-cards img:not(:hover) {
-    transition: 500ms ease;
 }
 
 .about-cards img {
@@ -492,23 +495,36 @@ footer {
     border-radius: 25px;
 }
 
-.about-cards h1 {
-    margin-top: 1.5rem;
-    margin-bottom: 0.625rem;
-    font-size: 3.125rem;
-    text-align: center;
-    text-shadow: 3px 3px 5px rgb(24, 24, 24);
+.about-cards img:hover {
+    transform: scale(1.03);
+    transition: 1s ease;
+}
+
+.about-cards img:not(:hover) {
+    transition: 1s ease;
 }
 
 .about-cards h2 {
     font-size: 1.875rem;
-    padding-top: 0.3rem;
+    padding-top: 1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    text-shadow: 3px 3px 5px rgb(24, 24, 24);
+}
+
+.about-container div:hover {
+    color: orange;
+    transition: 500ms ease;
+}
+
+.about-container div:not(:hover) {
+    transition: 500ms ease;
 }
 
 .about-cards p {
     text-align: center;
+    color: white;
+    text-shadow: 3px 3px 5px rgb(24, 24, 24);
 }
 
 .small {
@@ -516,9 +532,12 @@ footer {
     margin: 0.5rem;
 }
 
-.title {
+.about-cards h5 {
     color: rgba(255, 255, 255, 0.5);
+    text-shadow: 3px 3px 5px rgb(24, 24, 24);
+    text-align: center;
     font-size: 1.5rem;
+    margin-top: .3rem;
 }
 
 .email {
@@ -541,7 +560,7 @@ footer {
 
 
 .contacts-body {
-    color: black;
+    color: white;
     background-image: url("../pictures/chicken-wings.webp");
     background-blend-mode: darken;
     background-size: cover;
@@ -562,23 +581,25 @@ footer {
 }
 
 .contacts-form {
-    background: white;
-    border: 5px solid #ccc;
+    background-color: rgb(40,42,46);
+    border: 5px solid  rgb(71,70,71);
     display: flex;
     flex-direction: column;
     padding: 2vw 4vw;
     width: 90%;
     max-width: 37.5rem;
     border-radius: 10px;
-    opacity: 85%;
+    opacity: 90%;
+
 }
 
 .contacts-form h1 {
-    /* font-weight: 800; */
+    font-weight: 800;
     margin-bottom: 1rem;
     font-size: 2rem;
     text-align: center;
     text-transform: uppercase;
+    color: rgb(174,170,161);
 }
 
 .contacts-form p {
@@ -594,14 +615,15 @@ footer {
     margin: 0.6rem 0;
     padding: 1.25rem;
     outline: none;
-    background: #f5f5f5;
+    background: rgb(29, 31, 31);
+    color: white;
     font-size: 1rem;
     resize: none;
 }
 
 .contacts-form button {
     padding: 0.3rem;
-    background: #fddc94;
+    background: rgb(83,57,2);
     color: orange;
     font-size: 1.875rem;
     border: 0;
@@ -610,6 +632,7 @@ footer {
     margin: 1.25rem auto 0;
     cursor: pointer;
     border-radius: 15px;
+    text-shadow: 2px 2px 4px rgb(24, 24, 24);
 }
 
 .contacts-form button:hover {
@@ -635,9 +658,6 @@ footer {
     background-repeat: no-repeat;
 }
 
-.profile-body span {
-    color: orange;
-}
 
 .profile-container {
     height: 100vh;
@@ -650,25 +670,37 @@ footer {
 .profile-form {
     max-width: 47rem;
     width: 100%;
-    padding: 1.875rem;
-    border: 5px solid #ccc;
+    padding: 2rem;
+    border: 5px solid  rgb(71,70,71);
     border-radius: 10px;
-    background-color: #fff;
+    background-color: rgb(36,39,41);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     text-align: center;
-    opacity: 85%;
+    opacity: 90%;
 }
 
 .profile-form h1 {
     font-size: 3rem;
-    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 2rem;
     text-align: center;
+    color: rgb(174,170,161);
+
 }
 
 .profile-form h2 {
+    color: #fff;
     font-size: 1.875rem;
-    margin-bottom: 0.625rem;
+    margin-bottom: 1rem;
     text-align: center;
+    font-weight: 1000;
+}
+
+.profile-body span {
+    color: orange;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0); 
+    font-weight: 600;
 }
 
 /* ? logout bytona */
@@ -676,11 +708,12 @@ footer {
 .logout-button {
     display: inline-block;
     width: 12.5rem;
+    margin-top: 2rem;
     padding: 0.625rem;
     border-radius: 10px;
     font-size: 2rem;
     align-items: center;
-    background-color: #fddc94;
+    background-color: rgb(80,59,10);
     color: orange;
     cursor: pointer;
 }
@@ -717,15 +750,15 @@ footer {
     justify-content: center;
     padding: 1.25rem;
     padding-bottom: 4rem;
-    opacity: 85%;
+    opacity: 90%;
 }
 
 .form-container form {
     padding: 1.25rem;
-    border: 5px solid #ccc;
+    border: 5px solid rgb(71,70,71);
     border-radius: 20px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    background: #ffffff;
+    background-color: rgb(33,34,33);
     text-align: center;
     width: 31rem;
 }
@@ -734,7 +767,8 @@ footer {
     font-size: 2rem;
     margin-bottom: 1rem;
     text-transform: uppercase;
-    color: #333;
+    color: rgb(189,185,178);
+    font-weight: 800;
 }
 
 
@@ -744,15 +778,12 @@ footer {
     padding: 1rem 1rem;
     font-size: 1rem;
     margin: .5rem 0;
-    background: #eee;
-}
-
-.form-container form select option {
-    background: #fff;
+    background-color: rgb(41,42,44);
+    color: white;
 }
 
 .form-container form .button {
-    background: #fddc94;
+    background-color: rgb(90,63,9);
     color: orange;
     text-transform: capitalize;
     font-size: 1.5rem;
@@ -772,7 +803,8 @@ footer {
 .form-container form p {
     margin-top: 1rem;
     font-size: 1.25rem;
-    color: #333;
+    font-weight: 250px;
+    color: white;
 }
 
 .form-container form p a {
@@ -785,13 +817,13 @@ footer {
 
 .news-body {
     margin: 0;
+    z-index: 0;
     font-family: "Popins", sans-serif;
     background: url("../pictures/pileshko-hapvane.webp");
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: 0;
 }
 
 .news-container {
@@ -803,14 +835,14 @@ footer {
 }
 
 .news-card {
-    background-color: #fff;
+    background-color: rgb(24,26,27);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     margin-bottom: 1.25rem;
     padding: 1.25rem;
     flex-basis: calc(33.33% - 20px);
     box-sizing: border-box;
     border-radius: 25px;
-    border: 5px solid #ccc;
+    border: 5px solid rgb(62,68,70);
     width: 75%;
     height: auto;
 }
@@ -844,7 +876,7 @@ footer {
 
 .news-card a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 

@@ -185,7 +185,8 @@ header a {
 
 .home-section p {
     font-family: 'Caveat', cursive;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: 800;
     margin-bottom: 5rem;
     color: rgba(255, 255, 255, .75);
 }

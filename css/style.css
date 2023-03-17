@@ -18,6 +18,16 @@
     /* outline: solid 1px #00ff15; */
 }
 
+::-webkit-scrollbar {
+    background-color: rgb(25, 29, 32);
+    width: .5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(45, 52, 58);
+    border-radius: 1rem;
+}
+
 
 /* ! hamburger css */
 

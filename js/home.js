@@ -70,6 +70,7 @@ function hamburgerMenu() {
     function show() {
         mainMenu.style.display = "flex";
         mainMenu.style.top = "0%";
+        mainMenu.style.transition = "500ms ease";
     }
 
     function close() {

@@ -11,12 +11,12 @@
 
 <body class="about-body">
     <?php
-    include_once 'header.php';
+        include_once 'header.php';
     ?>
 
     <section class="about-section">
         <div class="about-content">
-            <img src="../pictures/AIpile4.webp" alt="">
+            <img src="../pictures/AIpile4.webp" alt="chicken">
             <div class="about-text">
                 <h1>About Us</h1>
                 <h5>Chicks <span>& eggs</span></h5>
@@ -67,7 +67,7 @@
     </div>
 
     <?php
-    include_once 'footer.html';
+        include_once 'footer.html';
     ?>
 </body>
 

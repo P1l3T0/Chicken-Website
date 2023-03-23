@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
 
 
-/* ! general css */
+/*!-------------GENEREAL-------------*/
 
 * {
     font-family: "Popins", sans-serif;
@@ -29,7 +29,7 @@
 }
 
 
-/* ! hamburger css */
+/*!-------------HAMBURGER-MENU/HEADER-------------*/
 
 
 header {
@@ -153,7 +153,7 @@ header a {
     z-index: 999;
 }
 
-/* ! home css */
+/*!-------------HOME-------------*/
 
 .featured h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -174,7 +174,7 @@ header a {
     background-repeat: no-repeat;
 }
 
-/* ? tova e za glavniq section s pile backgrounda  */
+/*?-------------SELECTION-WITH-CHICKEN-------------*/
 
 .fact-display {
     color: rgba(255, 255, 255, 0.3);
@@ -210,7 +210,7 @@ header a {
     font-weight: 800;
 }
 
-/* ? tova e za featured content kartite */
+/*?-------------FEATURED-CONTENT-------------*/
 
 .home-container {
     display: flex;
@@ -258,9 +258,7 @@ header a {
     cursor: pointer;
 }
 
-/*
-    ? tova e da ti izliza tekst kat0 mishkata e vurhy dadena karta
-*/
+/*?-------------TOOLTIP-HOVER-------------*/
 
 .tooltip {
     position: relative;
@@ -290,9 +288,7 @@ header a {
     transition: 2s ease;
 }
 
-
-/* ! footer css */
-
+/*!-------------FOOTER-------------*/
 
 footer {
     margin-top: 3.438rem;
@@ -383,9 +379,7 @@ footer {
     color: rgb(57,211,83);
 }
 
-
-/* ! about css */
-
+/*!-------------ABOUT-------------*/
 
 .about-body {
     background-size: cover;
@@ -473,7 +467,7 @@ footer {
     justify-content: space-around;
 }
 
-/* ? kartite */
+/*?-------------CARDS-------------*/
 
 .about-container {
     display: flex;
@@ -571,9 +565,7 @@ footer {
     }
 }
 
-
-/* ! contacts css */
-
+/*!-------------CONTACTS-------------*/
 
 .contacts-body {
     color: white;
@@ -661,9 +653,7 @@ footer {
     transition: 500ms ease;
 }
 
-
-/* ! profile css */
-
+/*!-------------PROFILE-------------*/
 
 .profile-body {
     font-family: "Popins", sans-serif;
@@ -673,7 +663,6 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 
 .profile-container {
     height: 100vh;
@@ -702,7 +691,6 @@ footer {
     margin-bottom: 2rem;
     text-align: center;
     color: rgb(174,170,161);
-
 }
 
 .profile-form h2 {
@@ -719,7 +707,7 @@ footer {
     font-weight: 600;
 }
 
-/* ? logout bytona */
+/*!-------------LOGOUT-BUTTON-------------*/
 
 .logout-button {
     display: inline-block;
@@ -744,8 +732,7 @@ footer {
     transition: 500ms ease;
 }
 
-
-/* ! signup css */
+/*!-------------SIGN-UP-------------*/
 
 input:-webkit-autofill,
 input:-webkit-autofill:focus {
@@ -766,7 +753,7 @@ input[data-autocompleted] {
     background-repeat: no-repeat;
 }
 
-/* ? register/login page */
+/*!-------------REGISTER/LOGIN-------------*/
 
 .form-container {
     min-height: 100vh;
@@ -795,7 +782,6 @@ input[data-autocompleted] {
     color: rgb(189,185,178);
     font-weight: 800;
 }
-
 
 .form-container form input,
 .form-container form select {
@@ -837,7 +823,7 @@ input[data-autocompleted] {
 }
 
 
-/* ! news css*/
+/*!-------------NEWS-------------*/
 
 
 .news-body {
@@ -904,16 +890,14 @@ input[data-autocompleted] {
     color: white;
 }
 
-
-/* ! gallery css*/
-
+/*!-------------GALLERY-------------*/
 
 .gallery-body {
     background-color:rgb(25,29,32);
     overflow-x: hidden;
 }
 
-/* ? tova e za snimkite */
+/*?-------------PICTURES-------------*/
 
 .gallery {
     margin: 0 0.65rem;
@@ -943,7 +927,7 @@ input[data-autocompleted] {
     transition: 500ms ease;
 }
 
-/* ? animacii za snimkite v gallery i top-breeds stranicite */
+/*?-------------PICTURE-ANIMATION-FOR-GALLERY-AND-TOP-BREEDS-------------*/
 
 .hidden {
     opacity: 0;
@@ -964,7 +948,7 @@ input[data-autocompleted] {
     }
 }
 
-/* ? bytona za vrushtane na vurha na stranicata (ima go i v top-breeds) */
+/*?-------------GOTOP-BUTTON-------------*/
 
 .gotop {
     position: fixed;
@@ -988,7 +972,7 @@ input[data-autocompleted] {
     transition: 500ms ease;
 }
 
-/* ? ne znam kude sum gledal kato sum go pisal tova no znam kakvo pravi */
+/*?-------------PICTURE-RESIZING-IN-SMALL-SCREENS-------------*/
 
 @media only screen and (max-width: 600px) {
     .about-body {
@@ -1083,7 +1067,7 @@ input[data-autocompleted] {
 }
 
 
-/* ! top breeds css */
+/*!-------------TOP-BREEDS-------------*/
 
 
 .top-breeds-body {

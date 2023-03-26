@@ -565,6 +565,19 @@ footer {
     }
 }
 
+@media (width <= 600px) {
+    .about-section .about-content img {
+        height: 25rem;
+        width: 23rem;
+    }
+}
+
+@media (width <= 1000px) {
+    * {
+        text-align: center;
+    }
+}
+
 /*!-------------CONTACTS-------------*/
 
 .contacts-body {
@@ -698,7 +711,7 @@ footer {
     font-size: 1.875rem;
     margin-bottom: 1rem;
     text-align: center;
-    font-weight: 1000;
+    font-weight: 900;
 }
 
 .profile-body span {
@@ -706,6 +719,17 @@ footer {
     text-shadow: 2px 2px 4px rgb(0, 0, 0); 
     font-weight: 600;
 }
+
+@media (width <= 800px) {
+    .profile-form h1 {
+        font-size: 2em;
+    }
+
+    .profile-form h2 {
+        font-size: 1.5rem;
+    }
+}
+
 
 /*!-------------LOGOUT-BUTTON-------------*/
 

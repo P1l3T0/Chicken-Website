@@ -838,7 +838,7 @@ input[data-autocompleted] {
 }
 
 .news-container {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -848,14 +848,14 @@ input[data-autocompleted] {
 .news-card {
     background-color: rgb(24,26,27);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    margin-bottom: 1.25rem;
+    margin: .5rem;
     padding: 1.25rem;
     flex-basis: calc(33.33% - 20px);
     box-sizing: border-box;
     border-radius: 25px;
     border: 5px solid rgb(62,68,70);
     width: 75%;
-    height: auto;
+    /* min-width: 50%; */
 }
 
 .news-card:hover {
@@ -1145,4 +1145,15 @@ input[data-autocompleted] {
 .text-overlay p {
     font-size: 2rem;
     text-align: center;
+}
+
+@media (width <= 800px) {
+    .news-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-card {
+        width: 90%;
+    }
 }
